@@ -90,3 +90,14 @@ feedUIAdapter.likeItem("3")
 feedUIAdapter.commentOnItem("3", "Awesome video!")
 
 ```
+
+### Output
+```
+Rendering view: TextView(text=Hello world!)
+Rendering view: ImageView(imageUrls=[url1.jpg, url2.jpg])
+Rendering view: VideoView(videoUrl=video.mp4, thumbnail=thumb.jpg)
+Clicked: 1
+Long Clicked: 2
+Liked: 3
+Commented on 3: Awesome video!
+```
